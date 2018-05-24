@@ -1,11 +1,30 @@
-<title>My Site</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
-<!-- this grabs your stylesheet-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Visa Status</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
 
-<h1 class = "text-primary text-center" id="tit">Hello World!</h1>
+    <body>
+        <div>
+            <h1 class = "text-primary text-center" id="tit">Visa Status</h1>
+            <div id = 'list-div'>
+                <select id = "myList">
+                <option value = "AU">Australia</option>
+                </select>
+                <button class="btn-primary" id="go">Select</button>
+            </div>
 
-<script src="jquery-3.3.1.min.js"></script>
-<script src="script.js"></script>
-<script src="bootstrap.js"></script>
-<!--tester-->
+            <div id='info' class="container"></div>
+        </div>
+        <!--scripts-->
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>
+
+

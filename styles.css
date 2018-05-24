@@ -1,4 +1,38 @@
 h1{
     font-size: 90px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 5% auto 2% auto;
+    -webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+
+}
+body{
+    background-image: url("Asia-Travel-Blogs-Cover-Photo.jpg");
+}
+#info{
+    display: table;
+    margin: 5% auto 0 auto;    
+}
+#list-div{
+    display: table;
+    margin: 0 auto;  
+}
+.cnt-block{
+    display: block;
+    background: white;
+    padding: 2%;
+    margin: 10px;
+    height: 100%;
+    border-radius: 3px;
+}
+@media only screen and (min-width : 768px) {
+    .is-table-row {
+        display: table;
+    }
+    .is-table-row [class*="col-"] {
+        float: none;
+        display: table-cell;
+        vertical-align: top;
+    }
 }
