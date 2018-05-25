@@ -4,12 +4,24 @@ var country = function(country, validity, desc, cost){
     this.desc = desc;
     this.cost = cost;
 }
+function footerAlign() {
+    $("footer").css("display", "block");
+    $("footer").css("height", "auto");
+    var footerHeight = $("footer").outerHeight();
+    $("body").css("padding-bottom", footerHeight);
+    $("footer").css("height", footerHeight);
+ }
 
 
 $(document).ready(function(){
+    //align footer
+    footerAlign();
+
+    //initialise arrays
     var AUVisaArr = [];
     var USVisaArr = [];
     var UKVisaArr = [];
+    
     //AU visa
     AUVisaArr.push(new country('Japan', '90 days', 'Obtain on arrival', 'Free'));
     AUVisaArr.push(new country('Vietnam', '30 days', 'Apply online before arrival', 'Free'));

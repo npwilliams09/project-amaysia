@@ -10,6 +10,19 @@ h1{
 body{
     background-image: url("Asia-Travel-Blogs-Cover-Photo.jpg");
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    display:none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    color: white;
+}
 #info{
     display: table;
     margin: 5% auto 0 auto;    
