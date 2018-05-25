@@ -4,11 +4,14 @@ h1{
     font-weight: bold;
     margin: 5% auto 2% auto;
     -webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 4px black;
 
 }
 body{
-    background-image: url("Asia-Travel-Blogs-Cover-Photo.jpg");
+    background-image: url("myanmar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 html {
     position: relative;
@@ -25,7 +28,7 @@ footer {
 }
 #info{
     display: table;
-    margin: 5% auto 0 auto;    
+    margin: 2% auto 0 auto;    
 }
 #list-div{
     display: table;
@@ -37,8 +40,10 @@ footer {
     padding: 2%;
     margin: 10px;
     height: 100%;
-    border-radius: 3px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 @media only screen and (min-width : 768px) {
     .is-table-row {
         display: table;
