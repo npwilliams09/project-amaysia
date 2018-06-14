@@ -1,10 +1,30 @@
-<title>My Site</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
-<!-- this grabs your stylesheet-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Interactive Asia</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
 
-<h1 class = "text-primary text-center" id="tit">Hello World!</h1>
-
-<script src="jquery-3.3.1.min.js"></script>
-<script src="script.js"></script>
-<script src="bootstrap.js"></script>
+    <body>
+        <div>
+            <h1 class = "text-primary text-center" id="tit">Interactive Asia</h1>
+            <div class="mapContain">
+            <img src="asiaMap.png" id="amap" usemap="#image-map" alt="map of asia" height="50%" width ="50%">
+            <map name="image-map">
+                <area id="japan"target="" data-key="JP" alt="Japan" title="Japan" href="" coords="809,444,809,434,813,429,812,420,804,424,800,414,812,406,821,399,833,388,843,383,857,380,869,379,878,381,886,381,885,372,893,356,900,361,912,356,919,348,927,340,938,318,935,300,937,292,930,282,938,269,944,264,953,265,951,257,958,243,954,234,960,229,976,243,988,251,1002,252,1005,262,999,268,988,268,981,279,973,285,961,280,948,278,946,289,950,300,958,312,961,324,953,337,949,343,947,356,939,367,941,377,935,387,928,384,914,392,890,396,888,407,880,410,876,403,876,395,859,395,842,403,831,405,833,412,834,421,828,433,823,442,817,446" shape="poly">
+            </map>
+            </div>
+        </div>
+        <footer id = "footer" class="text-center">
+            <p>Nathan Williams © 2018. All Rights Reversed</p>
+        </footer>
+        <!--scripts-->
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="bootstrap.js"></script>
+        <script src="jquery.imagemapster.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>

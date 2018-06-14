@@ -1,4 +1,28 @@
 h1{
-    font-size: 90px;
+    font-size: 60px;
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("myanmar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+footer {
+    display:none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+.mapContain{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
 }
